@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px; /* Adjust the width to your preference */
+    margin: auto;
+}
+
+h2 {
+    color: #4285f4; /* Google's blue color */
+    font-size: 24px;
+}
+
+.input-container, .result {
+    margin: 20px 0;
+}
+
+input, .result {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.conversion-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+select {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #4285f4; /* Google's blue color */
+    border: none; /* Remove border from the result field */
+}
+
+#resultList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#resultList li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+#resultList li:last-child {
+    border: none; /* Remove the border from the last item */
+}
+
+/* Your existing CSS code */
+.input-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.output-field {
+    font-weight: bold;
+    color: #4285f4;
+}
+select {
+    width: 100%; /* Make the select element take the full width */
+    padding: 10px;
+  
+}
